@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#form">Registration Form</a>
+        <a href="#records">Student Records</a>
+        <a href="#audio">Audio</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Student Registration Portal</h1>
+
+        <!-- Bonus Profile Picture -->
+        <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L3Jhd3BpeGVsX29mZmljZV8zNV9wb3J0cmFpdF9vZl9hX2JlYXV0aWZ1bF9zbWlsaW5nX3lvdW5nX2luZGlhbl81MzIwNjY3OC1mZDE4LTQ3NmMtYWIxZS01YTYzZGMyMWI3YzIucG5n.png" alt="Student Profile" width="150">
+
+        <p>
+            Welcome to the Student Registration Portal. Students can
+            register their details, upload resumes, and view records.
+        </p>
+        <hr>
+    </header>
+
+    <!-- Registration Form -->
+    <section id="form">
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password">
+
+            <label>Age:</label>
+            <input type="number">
+
+            <label>Date of Birth:</label>
+            <input type="date">
+
+            <h3>Gender</h3>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <h3>Skills</h3>
+
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> React
+
+            <br><br>
+
+            <label>Upload Resume:</label>
+            <input type="file">
+
+            <br><br>
+
+            <button type="submit">Register Student</button>
+
+        </form>
+    </section>
+
+    <!-- Student Records -->
+    <section id="records">
+        <h2>Student Records</h2>
+
+        <table>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>City</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Shraddha</td>
+                <td>BCA</td>
+                <td>Delhi</td>
+                <td>shraddha@email.com</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Rahul</td>
+                <td>B.Tech</td>
+                <td>Mumbai</td>
+                <td>rahul@email.com</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Priya</td>
+                <td>BBA</td>
+                <td>Pune</td>
+                <td>priya@email.com</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Amit</td>
+                <td>B.Sc</td>
+                <td>Jaipur</td>
+                <td>amit@email.com</td>
+            </tr>
+
+            <tr>
+                <td>105</td>
+                <td>Neha</td>
+                <td>MCA</td>
+                <td>Chandigarh</td>
+                <td>neha@email.com</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <!-- Audio Section -->
+    <section id="audio">
+        <h2>Welcome Audio Message</h2>
+
+        <audio controls>
+            <source src="welcome.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Introduction Video</h2>
+
+        <video width="500" controls>
+            <source src="intro.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+</body>
+</html>
