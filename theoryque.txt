@@ -1,0 +1,11 @@
+Theory Answers (Part A)
+What does HTML stand for?
+HTML stands for HyperText Markup Language. It is used to create and structure web pages.
+What is the difference between a Tag and an Element?
+A tag is the markup inside angle brackets like <p>. An element includes the opening tag, content, and closing tag, such as <p>Hello</p>.
+What is an Attribute?
+An attribute provides additional information about an HTML element. It is written inside the opening tag, for example src and alt in an image tag.
+What is Semantic HTML?
+Semantic HTML uses meaningful tags like <header>, <nav>, <section>, and <footer> to clearly describe the content and structure of a webpage.
+Why is the alt attribute important for images?
+The alt attribute provides alternative text for an image if it cannot be displayed and improves accessibility for screen readers.
